@@ -8,8 +8,8 @@ require 'vendor/autoload.php';
 $servidor = 'seuservidor.com';
 $usuario = 'seu_usuario';
 $senha = 'sua_senha';
-$pastaLocal = '/caminho/para/pasta_local';
-$pastaRemota = '/caminho/para/pasta_remota';
+$pastaLocal = '/';
+$pastaRemota = '/';
 
 
 $ssh = new SSH2($servidor);
